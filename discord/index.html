@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>빙설</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="wrap">
+            <div class="inner">
+                <div class="header_logo">
+                    <img src="./source/banner.PNG" alt="logo" title="logo" class="hedaer_logo_img">
+                    <div class="hedaer_title">빙설</div>
+                </div>
+
+
+
+                <div class="hedaer_menuList">
+
+                    <a href="\./command/" class="header_menuItem"><i class="fa-solid fa-list"></i>명령어</a>
+                    <a href="#" class="header_menuItem header_menuItem_on"><i class="fa-brands fa-discord"></i>커뮤니티</a>
+                    <a href="#" class="header_menuItem" style=" border: 1px solid rgba(255, 255, 255, 0.16);"><i class="fa-solid fa-plus"></i>추가하기</a>
+                    <i class="fa-solid fa-ellipsis" style=" border: 1px solid rgba(255, 255, 255, 0.16);"></i>
+                
+                </div>
+                <button class="header_navi_button" id="header_navi_button_bar" onclick="menu_list_open()"><i class="fa fa-bars"></i></button>
+                <button class="header_navi_button" id="header_navi_button_x" onclick="menu_list_close()"><i class="fa-solid fa-x"></i></button>
+                
+            </div>
+        </div>
+    </header>
+    <div class="header_modile_bg">
+        <div class="header_modile_bg_main">
+            <a href="./command/" class="header_menuItem"><i class="fa-solid fa-list"></i>명령어</a>
+            <a href="#" class="header_menuItem header_menuItem_on"><i class="fa-brands fa-discord"></i>커뮤니티</a>
+            <a href="#" class="header_menuItem" style=" border: 1px solid rgba(255, 255, 255, 0.16);"><i class="fa-solid fa-plus"></i>추가하기</a>
+            
+        </div>
+    </div>
+
+    <section class="section" id="main_section">
+        <div class="wrap">
+            <div class="inner">
+                <div class="main_section_line">
+                    <div class="main_section_textBox">
+                        <div class="main_title">하나의 봇으로<br />모든 것을</div>
+                        <div class="main_text">
+                            빙설으로 디스코드를 더욱 편하게<br /> 사용하세요
+                        </div>
+    
+                        <button class="main_section_textButton main_section_textButtona_on"><i class="fa fa-plus"></i>서버에 초대하기</button>
+                        <button class="main_section_textButton " onclick="location.href='./command/'"><i class="fa-solid fa-list"></i>명령어 알아보기</button>
+                    </div>
+
+
+                    <div class="main_section_video">
+                        <img src="../source/IMG_5973.GIF" alt="">
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="wrap">
+            <div class="inner">
+                <div class="footer_top">
+                    <div class="footer_top_title">약관 및 방침</div>
+                    <div class="footer_top_menu_line">
+                        <a href="#" class="footer_top_menuLink">서비스 이용약관</a>
+                        <a href="#" class="footer_top_menuLink">개인정보 처리 방침</a>
+                        <a href="#" class="footer_top_menuLink">저작권 정책</a>
+                        <a href="#" class="footer_top_menuLink">환불 정책</a>
+                    </div>
+                </div>
+                <div class="footer_p">© 2023 studio bingsul. build ce38007</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

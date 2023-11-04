@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>빙설</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="wrap">
+            <div class="inner">
+                <div class="header_logo" onclick="location.href='../index.html'">
+                    <img src="../source/banner.PNG" alt="logo" title="logo" class="hedaer_logo_img">
+                    <div class="hedaer_title">빙설</div>
+                </div>
+
+
+
+                <div class="hedaer_menuList">
+
+                    <a href="#" class="header_menuItem"><i class="fa-solid fa-list"></i>명령어</a>
+                    <a href="#" class="header_menuItem header_menuItem_on"><i class="fa-brands fa-discord"></i>커뮤니티</a>
+                    <a href="#" class="header_menuItem" style=" border: 1px solid rgba(255, 255, 255, 0.16);"><i class="fa-solid fa-plus"></i>추가하기</a>
+                    <i class="fa-solid fa-ellipsis" style=" border: 1px solid rgba(255, 255, 255, 0.16);"></i>
+                
+                </div>
+                <button class="header_navi_button" id="header_navi_button_bar" onclick="menu_list_open()"><i class="fa fa-bars"></i></button>
+                <button class="header_navi_button" id="header_navi_button_x" onclick="menu_list_close()"><i class="fa-solid fa-x"></i></button>
+                
+            </div>
+        </div>
+    </header>
+    <div class="header_modile_bg">
+        <div class="header_modile_bg_main">
+            <a href="#" class="header_menuItem"><i class="fa-solid fa-list"></i>명령어</a>
+            <a href="#" class="header_menuItem header_menuItem_on"><i class="fa-brands fa-discord"></i>커뮤니티</a>
+            <a href="#" class="header_menuItem" style=" border: 1px solid rgba(255, 255, 255, 0.16);"><i class="fa-solid fa-plus"></i>추가하기</a>
+            <div class="menu_list_left_sidebar">
+                <div class="menu_list_left_sidebar_title"><i class="fa-solid fa-music"></i>음악 명령어</div>
+                <a href="" class="menu_list_left_sidebar_link menu_list_left_sidebar_link_on">일시정지</a>
+                <a href="" class="menu_list_left_sidebar_link">스킵</a>
+                <a href="" class="menu_list_left_sidebar_link">반복</a>
+                <a href="" class="menu_list_left_sidebar_link">삭제</a>
+                <a href="" class="menu_list_left_sidebar_link">검색</a>
+                <a href="" class="menu_list_left_sidebar_link">셔플</a>
+                <a href="" class="menu_list_left_sidebar_link">재생</a>
+                <a href="" class="menu_list_left_sidebar_link">재생목록</a>
+                <a href="" class="menu_list_left_sidebar_link">대기열</a>
+                <a href="" class="menu_list_left_sidebar_link">현재</a>
+                <a href="" class="menu_list_left_sidebar_link">넘기기</a>
+                <a href="" class="menu_list_left_sidebar_link">볼륨</a>
+                <a href="" class="menu_list_left_sidebar_link">나가</a>
+                <a href="" class="menu_list_left_sidebar_link">음악설정</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="section" id="main_section">
+        <div class="wrap">
+            <div class="inner">
+                <div class="menu_list_box">
+                    <div class="menu_list_left">
+                        <div class="menu_list_left_sidebar">
+                            <div class="menu_list_left_sidebar_title"><i class="fa-solid fa-music"></i>음악 명령어</div>
+                            <a href="" class="menu_list_left_sidebar_link menu_list_left_sidebar_link_on">일시정지</a>
+                            <a href="" class="menu_list_left_sidebar_link">스킵</a>
+                            <a href="" class="menu_list_left_sidebar_link">반복</a>
+                            <a href="" class="menu_list_left_sidebar_link">삭제</a>
+                            <a href="" class="menu_list_left_sidebar_link">검색</a>
+                            <a href="" class="menu_list_left_sidebar_link">셔플</a>
+                            <a href="" class="menu_list_left_sidebar_link">재생</a>
+                            <a href="" class="menu_list_left_sidebar_link">재생목록</a>
+                            <a href="" class="menu_list_left_sidebar_link">대기열</a>
+                            <a href="" class="menu_list_left_sidebar_link">현재</a>
+                            <a href="" class="menu_list_left_sidebar_link">넘기기</a>
+                            <a href="" class="menu_list_left_sidebar_link">볼륨</a>
+                            <a href="" class="menu_list_left_sidebar_link">나가</a>
+                            <a href="" class="menu_list_left_sidebar_link">음악설정</a>
+                        </div>
+                    </div>
+                    <div class="menu_list_right">
+                        <div class="menu_list_right_mainBox">
+                            <div class="menu_list_right_title">일시정지</div>
+                            <div class="menu_list_right_text">재생 중인 음악을 일시정지합니다.</div>
+                      
+                      
+                            <div class="menu_list_right_subTitle">설명</div>
+                            <div class="menu_list_right_content">이 명령어는 <strong>pause</strong>로도 사용할 수 있어요.</div>
+
+                            <div class="menu_list_right_subTitle">사용법</div>
+                            <div class="menu_list_right_content"><strong>!일시정지</strong></div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="wrap">
+            <div class="inner">
+                <div class="footer_top">
+                    <div class="footer_top_title">약관 및 방침</div>
+                    <div class="footer_top_menu_line">
+                        <a href="#" class="footer_top_menuLink">서비스 이용약관</a>
+                        <a href="#" class="footer_top_menuLink">개인정보 처리 방침</a>
+                        <a href="#" class="footer_top_menuLink">저작권 정책</a>
+                        <a href="#" class="footer_top_menuLink">환불 정책</a>
+                    </div>
+                </div>
+                <div class="footer_p">© 2023 studio bingsul. build ce38007</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
